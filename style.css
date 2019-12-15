@@ -1,0 +1,110 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	color: #3b4252;
+}
+#page{
+	display: flex;
+}
+
+#page aside
+{
+	width: 30%;
+	background-color: #ffd43b;
+	color: black;
+}
+
+#page aside header img
+{
+	width: 50%;
+	border-radius: 50%;
+	text-align: center;
+	padding: auto;
+}
+
+#page aside #photoCV, #page aside h3
+{
+	padding: auto;
+	text-align: center;
+	color: #ffd43b;
+}
+
+#page aside .title
+{
+	background-color: #3b4252;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+
+aside p
+{
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+aside .logos
+{
+	display: flex;
+	flex-direction: row;
+}
+aside .logo img
+{
+	width: 90%;
+}
+
+
+#prenom
+{
+	color: #ffd43b;
+}
+
+#underline
+{
+	text-decoration: underline #ffd43b;
+}
+
+#page main
+{
+	width: 70%;
+	background-color: #ffd43b 0.5;
+	padding: 50px;
+}
+
+#page main .title
+{
+	border-bottom: solid 2px #ffd43b;
+}
+#page main table
+{
+	text-align: left;
+}
+#page main img
+{
+	width: 5%;
+	height: 5%;
+	float: left;
+}
+#page main table th
+{
+	display: flex;
+	flex-direction: row;
+}
+#page .title
+{
+	display:flex;
+}
+
+#page .title p img
+{
+	width: 50px;
+}
+#page .title p
+{
+	padding-right: 0;
+}
+#page .title h2
+{
+	padding-top: 10px;
+}
