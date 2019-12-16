@@ -4,10 +4,28 @@ body
 	margin: 0;
 	color: #3b4252;
 }
-#page{
+#page
+{
 	display: flex;
+	font-size:0.8em;
+}
+h1
+{
+	font-size: 2em;
 }
 
+h2
+{
+	font-size: 1.5em;
+}
+h3
+{
+	font-size: 1.2em;
+}
+a:hover
+{
+	color: #3b4252;
+}
 #page aside
 {
 	width: 30%;
@@ -107,4 +125,19 @@ aside .logo img
 #page .title h2
 {
 	padding-top: 10px;
+}
+
+#comp
+{
+	display: flex;
+}
+
+#comp ul
+{
+	list-style: none;
+}
+
+#comp ul li
+{
+	padding: 20px;
 }
