@@ -80,7 +80,7 @@ aside .logo img
 
 #underline
 {
-	text-decoration: underline #ffd43b;
+	text-decoration: underline #ffd43b 2px;
 }
 
 #page main
@@ -97,6 +97,8 @@ aside .logo img
 #page main table
 {
 	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 #page main img
 {
