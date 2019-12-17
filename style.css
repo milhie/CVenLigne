@@ -80,7 +80,7 @@ aside .logo img
 
 #underline
 {
-	text-decoration: underline #ffd43b 2px;
+	border-bottom: solid #ffd43b 2px;
 }
 
 #page main
