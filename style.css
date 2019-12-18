@@ -41,7 +41,7 @@ a:hover
 	padding: auto;
 }
 
-#page aside #photoCV, #page aside h3, #page aside #age
+#page aside #photoCV, #page aside h3
 {
 	padding: auto;
 	text-align: center;
@@ -61,6 +61,10 @@ aside p
 	text-align: left;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+aside #age
+{
+        text-align :center;
 }
 aside .logos
 {
