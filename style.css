@@ -6,6 +6,7 @@ body
 }
 #page
 {
+	height: 100%;
 	display: flex;
 	font-size:0.8em;
 }
@@ -32,7 +33,18 @@ a:hover
 	background-color: #ffd43b;
 	color: black;
 }
-
+#page aside header
+{
+	height: 40%;
+}
+#page aside #about
+{
+	height: 35%;
+}
+#page aside #loisirs
+{
+	height: 25%;
+}
 #page aside header img
 {
 	width: 50%;
@@ -62,9 +74,9 @@ aside p
 	margin-left: 20px;
 	margin-right: 20px;
 }
-aside #age
+#page aside header #age
 {
-        text-align :center;
+	text-align:center;
 }
 aside .logos
 {
@@ -76,6 +88,11 @@ aside .logo img
 	width: 90%;
 }
 
+aside #loisirs
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 
 #prenom
 {
@@ -84,7 +101,7 @@ aside .logo img
 
 #underline
 {
-	border-bottom: solid #ffd43b 2px;
+	text-decoration: underline #ffd43b 2px;
 }
 
 #page main
@@ -92,8 +109,12 @@ aside .logo img
 	width: 70%;
 	background-color: #ffd43b 0.5;
 	padding: 50px;
+	padding-top: 5px;
 }
-
+#page main header
+{
+	padding-top: 0;
+}
 #page main .title
 {
 	border-bottom: solid 2px #ffd43b;
@@ -114,6 +135,10 @@ aside .logo img
 {
 	display: flex;
 	flex-direction: row;
+}
+#page main table .small
+{
+	font-size: 0.6em;
 }
 #page .title
 {
