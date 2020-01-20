@@ -33,6 +33,10 @@ a:hover
 	background-color: #ffd43b;
 	color: black;
 }
+#page aside header
+{
+	height:50%;
+}
 
 #page aside header img
 {
