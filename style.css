@@ -81,6 +81,10 @@ aside .logo img
 {
 	width: 90%;
 }
+aside strong
+{
+	font-style: italic;
+}
 
 #name
 {
