@@ -44,12 +44,12 @@ a:hover
 	width: 50%;
 	border-radius: 50%;
 	text-align: center;
-	padding: auto;
+	
 }
 
 #page aside #photoCV, #page aside h3
 {
-	padding: auto;
+	
 	text-align: center;
 	color: #ffd43b;
 }
@@ -85,6 +85,10 @@ aside strong
 {
 	font-style: italic;
 }
+aside header #form_contact
+{
+	font-size: 1.3em;
+}
 
 #name
 {
@@ -93,13 +97,13 @@ aside strong
 
 #underline
 {
-	text-decoration: underline #ffd43b 2px;
+	border-bottom: solid #ffd43b 3px;
 }
 
 #page main
 {
 	width: 70%;
-	background-color: #ffd43b 0.5;
+	background-color: rgba(254, 255, 166, 0.5);
 	padding: 50px;
 	padding-top: 5px;
 }
